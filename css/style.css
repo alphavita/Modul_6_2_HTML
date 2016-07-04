@@ -179,10 +179,23 @@ font-weight: 400;
 	padding-left: 5px;
 	padding-right: 5px;
 }
+.container {
+	margin-bottom: 29px;
+}
 .left_katalog {
+	margin-top: 3px;
 	float: left;
 	width: 191px;
 	font-family: "Lucida Sans Unicode", Arial;
+}
+.left_katalog_header {
+	/* Style for "pla" */
+width: 183px;
+height: 27px;
+border-radius: 13px;
+border: 1px solid #79878d;
+box-shadow: 1.5px 2.6px 3px rgba(150, 150, 150, 0.75);
+margin-bottom: 14px;
 }
 .left_katalog_header span {
 	color: #114165;
@@ -191,12 +204,57 @@ font-weight: 400;
 	line-height: 25px;
 
 	float: left;
+	letter-spacing: 0.9px;
 }
+.left_catalog_header_litl {
+	/* Style for "Shape 28" */
+width: 148px;
+height: 28px;
+background-color: white;
+border: 1px solid #79878d;
+border-radius: 14px;
+}
+.left_catalog_header_litl span {
+	color: #114165;
+font-family: "Lucida Sans Unicode", Arial;
+font-size: 14px;
+font-weight: 400;
+line-height: 25px;
+}
+
+.filter {
+
+	margin-left: 30px;
+	color: #114165;
+font-family: "Lucida Sans Unicode", Arial;
+font-size: 12px;
+
+
+
+}
+.filter input:checked+span {
+	color: #0c3256;
+font-family: Arial;
+font-size: 14px;
+font-weight: 700;
+font-style: italic;
+text-decoration: underline;
+}
+.filter li {
+	margin-bottom: 8px;
+}
+
+
+
+
+
+
 .gallery {
 	font-family: "Lucida Sans Unicode", Arial;
 	float: left;
 	width: 526px;
-	padding-left: 24px;
+	padding-left: 22px;
+	padding-top: 13px;
 
 	height: 627px;
 	background-color: white;
@@ -206,7 +264,9 @@ border-radius: 3px;
 .item {
 	float: left;
 	width: 140px;
-	margin-right: 29px;
+	margin-right: 28px;
+	text-align: center;
+	margin-bottom: 23px;
 }
 .item:nth-of-type(3) {
 	margin-right: 0;
@@ -217,6 +277,9 @@ border-radius: 3px;
 .item:nth-of-type(9) {
 	margin-right: 0;
 }
+.item h3 {
+	color: #206988;
+}
 .item_img {
 
 width: 138px;
@@ -224,8 +287,79 @@ height: 129px;
 background-color: white;
 border: 1px solid #a4aeb1;
 border-radius: 7px;
+margin-bottom: 2px;
 }
 .item_img img {
 	margin: 3px auto;
 	display: block;
+}
+.item_prise {
+
+	color: #114165;
+	/* Base text style */
+
+
+
+font-weight: 700;
+font-style: italic;
+
+/* Text style for "90.00" */
+font-size: 16px;
+
+
+}
+.brand_logo {
+	margin: 0 auto;
+	text-align: center;
+}
+.brand_logo img{
+	padding-top: 4px;
+	margin-right: 12px;
+	text-align: center;
+	display:inline-block;
+	vertical-align: bottom;
+}
+footer {
+	/* Base text style */
+
+width: 910px;
+height: 101px;
+background-color: #213a4d;
+border: 1px solid #242a3c;
+text-align: center;
+margin-top: 29px;
+padding-top: 10px;
+}
+footer a {
+	/* Base text style */
+	text-decoration: none;
+	text-align: center;
+text-align: center;
+font-family: Arial;
+font-size: 12px;
+font-weight: 400;
+line-height: 16px;
+
+/* Text style for "╨Ю ╨║╨╛╨╝╨┐╨░╨╜╨╕╨╕" */
+color: #52abcb;
+
+/* Text style for "| ╨Ф╨╛╤Б╤В╨░╨▓╨║╨░   |" */
+color: #bec6c9;
+padding-right: 11px;
+padding-left: 11px;
+border-right: 2px solid #8d989f;
+}
+footer a:last-of-type {
+	border: none;
+}
+footer p {
+	/* Text style for "╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╤Б╨░╨╣╤В╨░" */
+margin-top: 8px;
+color: #7f4740;/*#fff;*/
+font-family: Arial;
+font-size: 10px;
+font-weight: 400;
+line-height: 18px;
+font-family: "Lucida Sans Unicode", Arial;
+text-align: center;
 }
