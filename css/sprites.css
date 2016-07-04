@@ -13,6 +13,8 @@
 	width: 21px;
 	height: 17px;
 	float: left;
+	margin-right: 6px;
+
 }
 
 .home{
@@ -20,6 +22,7 @@
 	width: 12px;
 	height: 11px;float: left;
 	margin-left: 7px;
+	margin-top: 1px;basket2
 }
 
 .kart_site{
@@ -27,7 +30,8 @@
 	width: 14px;
 	height: 10px;
 	float: left;
-	margin-left: 7px;
+	margin-left: 8px;
+	margin-top: 1px;
 }
 
 .email{
@@ -35,7 +39,8 @@
 	width: 12px;
 	height: 9px;
 	float: left;
-	margin-left: 7px;
+	margin-left: 8px;
+	margin-top: 2px;
 }
 
 .ring{
@@ -47,10 +52,16 @@
 }
 
 .icon_list{
-	background-position: -104px -6px ;
-	width: 12px;
-	height: 14px;
+	background-position: -99px -2px ;
+	width: 22px;
+	height: 24px;
 	float: left;
+	border-radius: 50%;
+	background-color: #206988;
+	margin-right: 4px;
+/*background-image: -webkit-linear-gradient(#206988 0%, #114165 59%, #0c3256 100%);
+background-image: -o-linear-gradient(#206988 0%, #114165 59%, #0c3256 100%);
+background-image: linear-gradient(#206988 0%, #114165 59%, #0c3256 100%);*/
 }
 
 .frg{
