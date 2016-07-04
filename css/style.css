@@ -1,0 +1,71 @@
+ @font-face {
+    font-family: 'Lucida Sans Unicode';
+     src: url(fonts/lucida-sans-unicode.ttf);
+ }
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+          font-family: 'Lucida Sans Unicode', arial;
+}
+.wraper {
+	margin: 0 auto;
+	width: 1000px;
+	padding-left: 45px;
+	padding-right: 45px;
+	padding-top: 16px;
+	font-family: ;
+}
+.clearfix {
+	clear: both;
+}
+header {
+	height: 25px;
+}
+.tel {
+	float: left;
+	margin-right: 5px;
+	margin-top: 3px;
+	height: 21px;
+	width: 21px;
+	border-radius: 50%;
+	color: #fff;
+	text-align: center;
+	background-image: linear-gradient(to top, #206988 0%, #114165 59%, #0c3256 100%);
+}
+/* Text style for "(044)123-45-67" */
+.number {
+	float: left;
+	width: 264px;
+	font-size: 18px;
+font-weight: 400;
+line-height: 25px;
+ font-family: 'Lucida Sans Unicode', arial;
+ letter-spacing: 0.3px;
+ margin-right: 17px;
+}
+.autorez {
+/* Style for "Shape 22" */
+float: left;
+width: 495px;
+height: 26px;
+background-color: #b1bcc0;
+background-image: linear-gradient(180deg, #206988 0%, #114165 59%, #0c3256 100%);
+border-radius: 4px;
+box-shadow: 1.5px 2.6px 3px rgba(150, 150, 150, 0.75);
+}
+.autorez input {
+margin-top: 4px;
+margin-left: 2px;
+float: left;
+width: 115px;
+height: 18px;
+border: 1px solid #9ba1a3;
+
+color: #97a2a6;
+font-family: "Lucida Sans Unicode", Arial;
+font-size: 11px;
+font-weight: 400;
+line-height: 25px;
+
+}

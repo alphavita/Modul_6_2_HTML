@@ -1,0 +1,67 @@
+.basket2,
+.home,
+.kart_site,
+.email,
+.ring,
+.icon_list,
+.frg{
+	background: url(../img/sprites.png) no-repeat;
+}
+
+.basket2{
+	background-position: -76px -5px ;
+	width: 21px;
+	height: 17px;
+	float: left;
+}
+
+.home{
+	background-position: -7px -7px ;
+	width: 12px;
+	height: 11px;float: left;
+	margin-left: 7px;
+}
+
+.kart_site{
+	background-position: -30px -7px ;
+	width: 14px;
+	height: 10px;
+	float: left;
+	margin-left: 7px;
+}
+
+.email{
+	background-position: -56px -8px ;
+	width: 12px;
+	height: 9px;
+	float: left;
+	margin-left: 7px;
+}
+
+.ring{
+	background-position: -133px -4px ;
+	width: 22px;
+	height: 23px;
+	float: left;
+	margin-right: 2px;
+}
+
+.icon_list{
+	background-position: -104px -6px ;
+	width: 12px;
+	height: 14px;
+	float: left;
+}
+
+.frg{
+
+	background-position: -169px -8px ;
+	width: 14px;
+	height: 18px;
+	float: left;
+	margin-right: 2px;
+	margin-left: 7px;
+	margin-top: 4px;
+}
+
+
