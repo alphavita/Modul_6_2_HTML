@@ -113,8 +113,8 @@ nav {
 .navigation {
 	/* Style for "Shape 21" */
 margin-top: 4px;
-/*margin-bottom: 12px;*/
-margin-bottom: 160px;
+margin-bottom: 10px;
+/*margin-bottom: 160px;*/
 width: 910px;
 height: 34px;
 padding-left: 125px;
@@ -315,6 +315,8 @@ font-family: Arial;
 font-size: 12px;
 font-weight: 400;
 }
+
+
 .find {
 	margin-bottom: 16px;
 
@@ -322,26 +324,122 @@ font-weight: 400;
 .find_auto,
 .find_tires,
 .find_disk {
+	position: relative;
 	float: left;
 	/* Style for "Shape 37" */
 	border: 1px solid #9c9c9d;
 	border-radius: 17px;
 	box-shadow: 2.6px 4.3px 5px rgba(104, 104, 104, 0.75);
-		padding-left: 16px;
+		padding-left: 20px;
+
 		padding-top: 1px;
 }
 .find_auto {
 	width: 415px;
 	height: 134px;
 	font-family: "Lucida Sans Unicode", Arial;
+	float: left;
 
 }
+.find_tires {
+	float: left;
+	/* Style for "╤И╨╕╨╜╤Л" */
+	width: 193px;
+	height: 137px;
+	border: 1px solid #9c9c9d;
+	border-radius: 17px;
+	box-shadow: 2.6px 4.3px 5px rgba(150, 150, 150, 0.75);
+	margin-left: 17px;
+	margin-right: 11px;
+}
+.find__disk {
+	/* Style for "Shape 35" */
+	float: left;
+width: 268px;
+height: 136px;
+
+border: 1px solid #9c9c9d;
+border-radius: 14px;
+box-shadow: 2.6px 4.3px 5px rgba(150, 150, 150, 0.75);
+}
+.find_auto h3 {
+	position: absolute;
+	left:130px;
+
+	font-size: 12px;
+	text-align: center;
+	/* Text style for "╨Я╨╛╨╕╤Б╨║ ╨┐╨╛ ╨░╨▓╤В╨╛╨╝" */
+
+color: #154467;
+font-family: Arial;
+font-size: 12px;
+font-weight: 900;
+
+}
+
+fieldset {
+	width: 180px;
+	float: left;
+	/* Text style for "╨Ф╨╕╤Б╨║╨╕:" */
+
+color: #154468;
+font-family: Arial;
+font-size: 10px;
+font-weight: 300;
+
+}
+.second {
+	margin-left: 18px;
+}
+legend {
+	float: left;
+	width: 186px;
+	clear: both;
+	margin-bottom: 6px;
+
+}
+select {
+	margin-bottom: 6px;
+	height: 16px;
+}
+fieldset label {
+	width: 74px;
+	float: left;
+	display: table-cell;
+	vertical-align: middle;
+	/*line-height: 15px;*/
+}
+.size4 {
+	width: 100px;
+}
+.size3 {
+	width: 57px;
+}
+
 .find_auto h2 span {
 	font-family: "Lucida Sans Unicode", Arial;
 	line-height: 14px;
 	display: inline-block;
 	padding-left: 3px;
 }
+.find input[type="button"] {
+	text-decoration: underline;
+	font-style: italic;
+	background: none;
+	border: 0;
+	color: #;
+	color: #154467;
+	font-family: Arial;
+	font-size: 14px;
+	margin: 0;
+	padding-right: 14px;
+	float: right;
+
+
+text-decoration: underline;
+
+}
+
 .joint {
 	/* Text style for "╨┐╨╛╨╕╤Б╨║..." */
 color: #154467;
@@ -354,6 +452,7 @@ text-align: left;
 }
 .right {
 	text-align: right;
+	padding-right: 17px;
 }
 label {
 	font-size: 10px;
@@ -361,8 +460,12 @@ label {
 .grey {
 	color: grey;
 	font-size: 8px;
+	font-size: 9px;
 }
-
+.black {
+	color: #000;
+	font-size: 10px;
+}
 
 
 
