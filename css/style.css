@@ -113,6 +113,7 @@ nav {
 .navigation {
 	/* Style for "Shape 21" */
 margin-top: 4px;
+/*margin-bottom: 12px;*/
 margin-bottom: 160px;
 width: 910px;
 height: 34px;
@@ -188,9 +189,24 @@ font-weight: 400;
 	width: 191px;
 	font-family: "Lucida Sans Unicode", Arial;
 }
+.right_catalog{
+	margin-top: 3px;
+	margin-left: 9px;
+	float: left;
+	width: 180px;
+	font-family: "Lucida Sans Unicode", Arial;
+}
 .left_katalog_header {
 	/* Style for "pla" */
 width: 183px;
+height: 27px;
+border-radius: 13px;
+border: 1px solid #79878d;
+box-shadow: 1.5px 2.6px 3px rgba(150, 150, 150, 0.75);
+margin-bottom: 14px;
+}
+.right_katalog_header {
+	width: 183px;
 height: 27px;
 border-radius: 13px;
 border: 1px solid #79878d;
@@ -206,14 +222,34 @@ margin-bottom: 14px;
 	float: left;
 	letter-spacing: 0.9px;
 }
+.right_katalog_header span{
+	color: #114165;
+	font-size: 11px;
+	font-weight: 400;
+	line-height: 25px;
+	float: left;
+	letter-spacing: 0.9px;
+}
 .left_catalog_header_litl {
 	/* Style for "Shape 28" */
 width: 148px;
 height: 28px;
-background-color: white;
+/*margin-left: 14px;
+*/background-color: white;
 border: 1px solid #79878d;
 border-radius: 14px;
 }
+.right_catalog_header_litl {
+	width: 137px;
+	height: 28px;
+	background-color: white;
+	border: 1px solid #79878d;
+	border-radius: 14px;
+	float: left;
+	margin-left: 14px;
+	margin-right: 10px;
+}
+
 .left_catalog_header_litl span {
 	color: #114165;
 font-family: "Lucida Sans Unicode", Arial;
@@ -221,16 +257,26 @@ font-size: 14px;
 font-weight: 400;
 line-height: 25px;
 }
+.right_catalog_header_litl span {
+	color: #114165;
+font-family: "Lucida Sans Unicode", Arial;
+font-size: 14px;
+font-weight: 400;
+line-height: 25px;
+}
 
-.filter {
+.left_katalog  .filter {
 
 	margin-left: 30px;
 	color: #114165;
 font-family: "Lucida Sans Unicode", Arial;
 font-size: 12px;
-
-
-
+}
+.right_catalog .filter {
+margin-left: 16px;
+	color: #114165;
+font-family: "Lucida Sans Unicode", Arial;
+font-size: 12px;
 }
 .filter input:checked+span {
 	color: #0c3256;
@@ -242,6 +288,79 @@ text-decoration: underline;
 }
 .filter li {
 	margin-bottom: 8px;
+}
+
+.filter li:last-of-type {
+	margin-bottom: 4px;
+}
+.right_catalog .filter li:last-of-type {
+	margin-bottom: 10px;
+}
+button {
+	/* Style for "Shape 36" */
+	margin-top: 13px;
+	margin-left: 22px;
+width: 82px;
+height: 26px;
+background-color: black;
+background-image: linear-gradient(180deg, #206988 0%, #114165 59%, #0c3256 100%);
+border: 1px solid #a7abae;
+border-radius: 13px;
+
+/* Text style for "╨Т╨л╨С╨а╨Р╨в╨м" */
+/*width: 55px;
+height: 8px;*/
+color: #e5e9ea;
+font-family: Arial;
+font-size: 12px;
+font-weight: 400;
+}
+.find {
+	margin-bottom: 16px;
+
+}
+.find_auto,
+.find_tires,
+.find_disk {
+	float: left;
+	/* Style for "Shape 37" */
+	border: 1px solid #9c9c9d;
+	border-radius: 17px;
+	box-shadow: 2.6px 4.3px 5px rgba(104, 104, 104, 0.75);
+		padding-left: 16px;
+		padding-top: 1px;
+}
+.find_auto {
+	width: 415px;
+	height: 134px;
+	font-family: "Lucida Sans Unicode", Arial;
+
+}
+.find_auto h2 span {
+	font-family: "Lucida Sans Unicode", Arial;
+	line-height: 14px;
+	display: inline-block;
+	padding-left: 3px;
+}
+.joint {
+	/* Text style for "╨┐╨╛╨╕╤Б╨║..." */
+color: #154467;
+font-size: 12px;
+line-height: 28px;
+font-weight: bold;
+}
+.left {
+text-align: left;
+}
+.right {
+	text-align: right;
+}
+label {
+	font-size: 10px;
+}
+.grey {
+	color: grey;
+	font-size: 8px;
 }
 
 
