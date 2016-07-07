@@ -318,12 +318,12 @@ font-weight: 400;
 
 
 .find {
-	margin-bottom: 16px;
+	margin-bottom: 13px;
 
 }
 .find_auto,
 .find_tires,
-.find_disk {
+.find__disk {
 	position: relative;
 	float: left;
 	/* Style for "Shape 37" */
@@ -349,7 +349,7 @@ font-weight: 400;
 	border: 1px solid #9c9c9d;
 	border-radius: 17px;
 	box-shadow: 2.6px 4.3px 5px rgba(150, 150, 150, 0.75);
-	margin-left: 17px;
+	margin-left: 15px;
 	margin-right: 11px;
 }
 .find__disk {
@@ -376,8 +376,50 @@ font-size: 12px;
 font-weight: 900;
 
 }
+.find__disk {
+	padding-left: 14px;
+	padding-right: 15px;
+}
+.find_disk {
+	padding-left: 12px;
+	font-family: "Lucida Sans Unicode", Arial;
+}
 
-fieldset {
+.find_tires h3{
+	position: absolute;
+	left: 8px;
+	top: 4px;
+	/* Text style for "╨┐╨╛╨╕╤Б╨║ ╤И╨╕╨╜" */
+	color: #114165;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: 900;
+	}
+.find__disk h3 {
+	position: absolute;
+	left: 8px;
+	top: 4px;
+	/* Text style for "╨┐╨╛╨╕╤Б╨║ ╤И╨╕╨╜" */
+	color: #114165;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: 900;
+	}
+.find_disk_left,
+.find_disk_right {
+	float: left;
+}
+.find_disk_left {
+	width: 163px;
+	padding-right: 6px;
+	border-right: 1px solid gray;
+}
+.find_disk_right {
+	width: 73px;
+	/*padding-left: 5px;*/
+}
+
+.find_auto fieldset {
 	width: 180px;
 	float: left;
 	/* Text style for "╨Ф╨╕╤Б╨║╨╕:" */
@@ -388,10 +430,16 @@ font-size: 10px;
 font-weight: 300;
 
 }
+.find_tires fieldset {
+	float: left;
+	font-family: Arial;
+	font-weight: 300;
+	margin-top: 21px;
+}
 .second {
 	margin-left: 18px;
 }
-legend {
+.find_auto legend {
 	float: left;
 	width: 186px;
 	clear: both;
@@ -401,19 +449,79 @@ legend {
 select {
 	margin-bottom: 6px;
 	height: 16px;
+	font-size: 11px;
+	text-align: left;
+
 }
-fieldset label {
+.find_auto fieldset label {
 	width: 74px;
 	float: left;
 	display: table-cell;
 	vertical-align: middle;
 	/*line-height: 15px;*/
 }
+.find_tires fieldset label {
+	width: 44px;
+	float: left;
+	display: table-cell;
+	vertical-align: bottom;
+}
+.find_disk_left fieldset {
+	margin-top: 18px;
+}
+.find_disk_left select {
+	margin-bottom: 13px;
+}
+.find_disk_right fieldset {
+	margin-top: 2px;
+	padding-left: 12px;
+	/*margin-left: 7px;*/
+}
+.find_disk_left fieldset label {
+	width: 90px;
+	float: left;
+	display: table-cell;
+	vertical-align: middle;
+}
+.find_disk_right fieldset label {
+	width: 73px;
+	float: left;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.title_checkbox{
+
+color: black;
+font-family: "Lucida Sans Unicode", Arial;
+font-size: 12px;
+font-weight: 400;
+display: inline-block;
+margin-right: 65px;
+}
+.find_tires input {
+	margin-right: 0;
+	margin-left: 0;margin-bottom: 0;
+	margin-top: 0;
+
+
+}
+.find_tires input:nth-of-type(2),
+.find_tires input:nth-of-type(3)
+ {
+	margin-left: 44px;
+}
 .size4 {
 	width: 100px;
 }
 .size3 {
 	width: 57px;
+}
+.size2 {
+	width: 52px;
+}
+.size1 {
+	width: 45px;
 }
 
 .find_auto h2 span {
@@ -434,10 +542,17 @@ fieldset label {
 	margin: 0;
 	padding-right: 14px;
 	float: right;
+	text-decoration: underline;
 
+}
+.find_tires input[type="button"] {
 
-text-decoration: underline;
-
+	margin-top: -6px;
+	padding-right: 6px;
+}
+.find__disk input[type="button"] {
+	margin-top: -12px;
+	margin-right: -13px;
 }
 
 .joint {
@@ -461,10 +576,12 @@ label {
 	color: grey;
 	font-size: 8px;
 	font-size: 9px;
+	font-family: "Lucida Sans Unicode", Arial;
 }
 .black {
 	color: #000;
 	font-size: 10px;
+	font-family: "Lucida Sans Unicode", Arial;
 }
 
 
