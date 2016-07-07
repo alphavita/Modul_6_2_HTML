@@ -49,6 +49,8 @@
 	height: 23px;
 	float: left;
 	margin-right: 2px;
+	margin-right: 4px;
+	margin-left: 2px;
 }
 
 .icon_list{
@@ -59,6 +61,7 @@
 	border-radius: 50%;
 	background-color: #206988;
 	margin-right: 4px;
+	margin-left: 2px;
 /*background-image: -webkit-linear-gradient(#206988 0%, #114165 59%, #0c3256 100%);
 background-image: -o-linear-gradient(#206988 0%, #114165 59%, #0c3256 100%);
 background-image: linear-gradient(#206988 0%, #114165 59%, #0c3256 100%);*/
