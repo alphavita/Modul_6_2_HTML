@@ -54,9 +54,11 @@
 
 	</div>
 	<div class="find">
+
+
 		<div class="find_auto">
 			<form >
-			<h3>Поиск по автомобилю</h3>
+				<h3>Поиск по автомобилю</h3>
 				<fieldset>
 					<legend>Диски:</legend>
 					<label for="marka">
@@ -66,8 +68,8 @@
 					<select id="marka" class="size4">
 						<option value="yu"></option>
 						<option value="BMV">BMV</option>
-			 			<option value="AUDI">Audi</option>
-			 			<option value="Jeep">Jeep</option>
+						<option value="AUDI">Audi</option>
+						<option value="Jeep">Jeep</option>
 					</select>
 
 					<label for="model">
@@ -77,8 +79,8 @@
 					<select id="model" class="size4">
 						<option value="yu"></option>
 						<option value="BMV">BMV</option>
-			 			<option value="AUDI">Audi</option>
-			 			<option value="Jeep">Jeep</option>
+						<option value="AUDI">Audi</option>
+						<option value="Jeep">Jeep</option>
 					</select>
 					<label for="year">
 						<span class="black">Год выпуска</span><br>
@@ -87,8 +89,8 @@
 					<select id="year" class="size3">
 						<option value="yu"></option>
 						<option value="BMV">BMV</option>
-			 			<option value="AUDI">Audi</option>
-			 			<option value="Jeep">Jeep</option>
+						<option value="AUDI">Audi</option>
+						<option value="Jeep">Jeep</option>
 					</select>
 					<label for="complect">
 						<span class="black">Комплектация</span><br>
@@ -97,8 +99,8 @@
 					<select id="complect" class="size4">
 						<option value="yu"></option>
 						<option value="BMV">BMV</option>
-			 			<option value="AUDI">Audi</option>
-			 			<option value="Jeep">Jeep</option>
+						<option value="AUDI">Audi</option>
+						<option value="Jeep">Jeep</option>
 					</select>
 
 				</fieldset>
@@ -111,8 +113,8 @@
 					<select id="marka" class="size4">
 						<option value="yu"></option>
 						<option value="BMV">BMV</option>
-			 			<option value="AUDI">Audi</option>
-			 			<option value="Jeep">Jeep</option>
+						<option value="AUDI">Audi</option>
+						<option value="Jeep">Jeep</option>
 					</select>
 
 					<label for="model">
@@ -122,8 +124,8 @@
 					<select id="model" class="size4">
 						<option value="yu"></option>
 						<option value="BMV">BMV</option>
-			 			<option value="AUDI">Audi</option>
-			 			<option value="Jeep">Jeep</option>
+						<option value="AUDI">Audi</option>
+						<option value="Jeep">Jeep</option>
 					</select>
 					<label for="year">
 						<span class="black">Год выпуска</span><br>
@@ -132,8 +134,8 @@
 					<select id="year" class="size3">
 						<option value="yu"></option>
 						<option value="BMV">BMV</option>
-			 			<option value="AUDI">Audi</option>
-			 			<option value="Jeep">Jeep</option>
+						<option value="AUDI">Audi</option>
+						<option value="Jeep">Jeep</option>
 					</select>
 					<label for="complect">
 						<span class="black">Комплектация</span><br>
@@ -142,34 +144,147 @@
 					<select id="complect" class="size4">
 						<option value="yu"></option>
 						<option value="BMV">BMV</option>
-			 			<option value="AUDI">Audi</option>
-			 			<option value="Jeep">Jeep</option>
+						<option value="AUDI">Audi</option>
+						<option value="Jeep">Jeep</option>
 					</select>
 
 				</fieldset>
-				<input type="button" name="search" value="поиск..."></button>
-<div class="clearfix">
-
-			</div>
-
-			</div>
-			<div class="find_tires">
+				<input type="button" name="search" value="поиск...">
+			</form>
+			<div class="clearfix"></div>
 		</div>
+
+
+		<div class="find_tires">
+				<form >
+					<h3>поиск шин</h3>
+					<fieldset>
+						<label for="size">
+							<span class="black">Размер</span>
+						</label>
+						<select id="size" class="size2">
+							<option value="145">145</option>
+							<option value="150">150</option>
+							<option value="160">160</option>
+							<option value="170">170</option>
+						</select>
+						/
+						<select id=size class="size2">
+							<option value="210">210</option>
+							<option value="220">220</option>
+							<option value="230">230</option>
+							<option value="240">240</option>
+						</select>
+						<label for="radius">
+							<span class="black">R</span><br>
+						</label>
+						<select id="radius" class="size1">
+							<option value="12">12</option>
+							<option value="16">16</option>
+							<option value="20">20</option>
+							<option value="24">24</option>
+						</select>
+						<div class="clearfix">	</div>
+						<label for="sezon">
+							<span class="black">Сезон</span><br>
+						</label>
+						<input type="checkbox" id="sezon" >
+						<span class="title_checkbox">лето</span>
+						<input type="checkbox" id="sezon" >
+						<span class="title_checkbox">зима</span>
+						<input type="checkbox" id="sezon" >
+						<span class="title_checkbox">всесез</span>
+						<input type="button" name="search" value="поиск...">
+					</fieldset>
+				</form>
+				<div class="clearfix"></div>
+		</div>
+
+
 		<div class="find__disk">
+			<form >
+				<h3>поиск дисков</h3>
+					<div class='find_disk_left'>
+						 <fieldset>
+							<label for="diametr_disk">
+								<span class="black">Диаметр</span>
+								<span class="grey">диска</span>
+							</label>
+							<select id="diametr_disk" class="size3">
+								<option value="145">145</option>
+								<option value="150">150</option>
+					 			<option value="160">160</option>
+					 			<option value="170">170</option>
+							</select>
+
+							<label for="count">
+								<span class="black">Количество</span>
+								<span class="grey">крепежных отверстий</span>
+							</label>
+							<select id="count" class="size2">
+								<option value="12">12</option>
+								<option value="16">16</option>
+					 			<option value="20">20</option>
+					 			<option value="24">24</option>
+							</select>
+							<div class="clearfix">	</div>
+							<label for="diametr_kr">
+								<span class="black">Диаметр</span>
+								<span class="grey">расположеных крепежных отверстий</span>
+							</label>
+							<select id="diametr_kr" class="size3">
+								<option value="12">12</option>
+								<option value="16">16</option>
+					 			<option value="20">20</option>
+					 			<option value="24">24</option>
+							</select>
+					</div>
+					<div class="find_disk_right">
+							<fieldset>
+							<label for="diametr_otv">
+								<span class="black">Диаметр</span>
+								<span class="grey">центрального отверстия</span>
+							</label>
+							<select id="diametr_otv" class="size3">
+								<option value="145">145</option>
+								<option value="150">150</option>
+					 			<option value="160">160</option>
+					 			<option value="170">170</option>
+							</select>
+
+							<label for="count">
+								<span class="black">ЕТ</span><br>
+								<span class="grey">(выдет диска)</span>
+							</label>
+							<select id="count" class="size2">
+								<option value="12">12</option>
+								<option value="16">16</option>
+					 			<option value="20">20</option>
+					 			<option value="24">24</option>
+							</select>
+					</div>
+					<div class="clearfix"></div>
+
+
+
+
+						<input type="button" name="search" value="поиск...">
+			</form>
+			<div class="clearfix"></div>
 		</div>
 		<div class="clearfix"></div>
 	</div>
-	<div class="container">
-		<div class="left_katalog">
-			<div class="left_katalog_header">
-				<div class="icon_list"></div>
-				<span>КАТАЛОГ ПРОДУКЦИИ:</span>
-				<div class="clearfix"></div>
-			</div>
-			<div class="left_catalog_header_litl">
-				<div class="ring">
-
+		<div class="container">
+			<div class="left_katalog">
+				<div class="left_katalog_header">
+					<div class="icon_list"></div>
+					<span>КАТАЛОГ ПРОДУКЦИИ:</span>
+					<div class="clearfix"></div>
 				</div>
+				<div class="left_catalog_header_litl">
+					<div class="ring">
+
+					</div>
 					<span>ШИНЫ:</span>
 					<div class="clearfix"></div>
 
@@ -207,9 +322,9 @@
 					</ul>
 				</div>
 				<div class="left_catalog_header_litl">
-				<div class="ring">
+					<div class="ring">
 
-				</div>
+					</div>
 					<span>ДИСКИ:</span>
 					<div class="clearfix"></div>
 
@@ -286,11 +401,6 @@
 						</li>
 					</ul>
 				</div>
-
-
-
-
-
 
 		</div>
 		<div class="gallery">
