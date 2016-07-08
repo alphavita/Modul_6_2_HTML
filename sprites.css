@@ -1,0 +1,100 @@
+.icon_toyo, .icon_toyo_hover, .icon_ridges, .icon_ridges_hover, .contire3, .icon_contire3_hover, .tire_4dr, .tire_4dr_hover, .icon_avon, .icon_avon_hover, .icon_tirefact, .icon_tirefact_hover, .icon_tirelli, .icon_tirelli_hover, .icon_dunlop, .icon_dunlop_hover{
+	background: url(sprites.png) no-repeat;
+}
+
+.icon_toyo{
+	background-position: -4px -6px ;
+	width: 83px;
+	height: 21px;
+}
+
+.icon_toyo_hover{
+	background-position: -4px -33px ;
+	width: 83px;
+	height: 21px;
+}
+
+.icon_ridges{
+	background-position: -102px -7px ;
+	width: 97px;
+	height: 14px;
+}
+
+.icon_ridges_hover{
+	background-position: -99px -30px ;
+	width: 97px;
+	height: 14px;
+}
+
+.contire3{
+	background-position: -209px -7px ;
+	width: 77px;
+	height: 21px;
+}
+
+.icon_contire3_hover{
+	background-position: -210px -34px ;
+	width: 77px;
+	height: 21px;
+}
+
+.tire_4dr{
+	background-position: -305px -6px ;
+	width: 59px;
+	height: 21px;
+}
+
+.tire_4dr_hover{
+	background-position: -305px -32px ;
+	width: 59px;
+	height: 21px;
+}
+
+.icon_avon{
+	background-position: -378px -9px ;
+	width: 77px;
+	height: 13px;
+}
+
+.icon_avon_hover{
+	background-position: -374px -33px ;
+	width: 77px;
+	height: 13px;
+}
+
+.icon_tirefact{
+	background-position: -465px -4px ;
+	width: 57px;
+	height: 27px;
+}
+
+.icon_tirefact_hover{
+	background-position: -464px -36px ;
+	width: 57px;
+	height: 27px;
+}
+
+.icon_tirelli{
+	background-position: -543px -5px ;
+	width: 61px;
+	height: 14px;
+}
+
+.icon_tirelli_hover{
+	background-position: -540px -31px ;
+	width: 61px;
+	height: 14px;
+}
+
+.icon_dunlop{
+	background-position: -624px -5px ;
+	width: 72px;
+	height: 13px;
+}
+
+.icon_dunlop_hover{
+	background-position: -622px -23px ;
+	width: 72px;
+	height: 13px;
+}
+
