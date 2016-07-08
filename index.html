@@ -16,16 +16,18 @@
 		</div>
 		<div class="autorez">
 			<div class="frg"></div>
-			<input type="text" name="login" placeholder="логин" required="">
-			<input type="password" name="password" placeholder="пароль" required="">
-			<a href="#">вход</a>
+			<form>
+			<input type="text" name="login" placeholder="логин" required="" class="int_aut">
+			<input type="password" name="password" placeholder="пароль" required="" class="int_aut">
+			<input type="submit" name="enter" value="вход" class="enter">
+			</form>
 			<a href="#">регистрация</a>
 			<a href="#">забыли пароль?</a>
 		</div>
 		<nav>
-			<div class="home"></div>
-			<div class="kart_site"></div>
-			<div class="email"></div>
+			<a href="#" class="home"></a>
+			<a href="#" class="kart_site"></av>
+			<a href="#" class="email"></a>
 
 
 		</nav>
@@ -188,11 +190,11 @@
 						<label for="sezon">
 							<span class="black">Сезон</span><br>
 						</label>
-						<input type="checkbox" id="sezon" >
+						<input type="checkbox" name="sezon_leto" >
 						<span class="title_checkbox">лето</span>
-						<input type="checkbox" id="sezon" >
+						<input type="checkbox" name="sezon_zima" >
 						<span class="title_checkbox">зима</span>
-						<input type="checkbox" id="sezon" >
+						<input type="checkbox" name="sezon_all" >
 						<span class="title_checkbox">всесез</span>
 						<input type="button" name="search" value="поиск...">
 					</fieldset>
@@ -254,7 +256,7 @@
 
 							<label for="count">
 								<span class="black">ЕТ</span><br>
-								<span class="grey">(выдет диска)</span>
+								<span class="grey">(вылет диска)</span>
 							</label>
 							<select id="count" class="size2">
 								<option value="12">12</option>
@@ -278,14 +280,14 @@
 			<div class="left_katalog">
 				<div class="left_katalog_header">
 					<div class="icon_list"></div>
-					<span>КАТАЛОГ ПРОДУКЦИИ:</span>
+					<h3>КАТАЛОГ ПРОДУКЦИИ:</h3>
 					<div class="clearfix"></div>
 				</div>
 				<div class="left_catalog_header_litl">
 					<div class="ring">
 
 					</div>
-					<span>ШИНЫ:</span>
+					<h3>ШИНЫ:</h3>
 					<div class="clearfix"></div>
 
 				</div>
@@ -325,7 +327,7 @@
 					<div class="ring">
 
 					</div>
-					<span>ДИСКИ:</span>
+					<h3>ДИСКИ:</h3>
 					<div class="clearfix"></div>
 
 				</div>
@@ -365,7 +367,7 @@
 				<div class="ring">
 
 				</div>
-					<span>БОЛТЫ:</span>
+					<h3>БОЛТЫ:</h3>
 					<div class="clearfix"></div>
 
 				</div>
@@ -499,14 +501,14 @@
 		<div class="right_catalog">
 			<div class="right_katalog_header">
 				<div class="icon_list"></div>
-				<span>БРЕНДЫ:</span>
+				<h3>БРЕНДЫ:</h3>
 				<div class="clearfix"></div>
 			</div>
 			<div class="right_catalog_header_litl">
 				<div class="ring">
 
 				</div>
-					<span>ШИНЫ:</span>
+					<h3>ШИНЫ:</h3>
 					<div class="clearfix"></div>
 
 			</div>
@@ -535,12 +537,12 @@
 						</li>
 
 					</ul>
-				</div>
-				<div class="right_catalog_header_litl">
+			</div>
+			<div class="right_catalog_header_litl">
 				<div class="ring">
 
 				</div>
-					<span>ДИСКИ:</span>
+					<h3>ДИСКИ:</h3>
 					<div class="clearfix"></div>
 
 			</div>
@@ -549,21 +551,21 @@
 						<li>
 							<label>
 
-								<input type="checkbox" name="tire" value="name1"> <span>Бренд 1</span>
+								<input type="checkbox" name="tire[]" value="name1"> <span>Бренд 1</span>
 
 							</label>
 						</li>
 						<li>
 							<label>
 
-								<input type="checkbox" name="tire" value="name1" > <span>Бренд 2</span>
+								<input type="checkbox" name="tire[]" value="name2" > <span>Бренд 2</span>
 
 							</label>
 						</li>
 						<li>
 							<label>
 
-								<input type="checkbox" name="tire" value="name1"> <span>Бренд</span>
+								<input type="checkbox" name="tire[]" value="name3"> <span>Бренд</span>
 
 							</label>
 						</li>
@@ -578,14 +580,22 @@
 
 	</div>
 	<div class="brand_logo">
-		<img src="img/icon_toyo.png">
+	 <a href="#" class="icon_toyo"></a>
+	 <a href="#" class="icon_ridges"></a>
+	 <a href="#" class="icon_contire3"></a>
+	 <a href="#" class="tire_4dr"></a>
+	 <a href="#" class="icon_avon"></a>
+	 <a href="#" class="icon_tirefact"></a>
+	 <a href="#" class="icon_tirelli"></a>
+	 <a href="#" class="icon_dunlop"></a>
+		<!-- <img src="img/icon_toyo.png">
 		<img src="img/icon_ridges.png">
 		<img src="img/contire3.png">
 		<img src="img/tire_4dr.png">
 		<img src="img/icon_avon.png">
 		<img src="img/icon_tirefact.png">
 		<img src="img/icon_tirelli.png">
-		<img src="img/icon_dunlop.png">
+		<img src="img/icon_dunlop.png"> -->
 
 	</div>
 	<footer>

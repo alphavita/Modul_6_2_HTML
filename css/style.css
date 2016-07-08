@@ -42,7 +42,9 @@ header {
 	font-size: 18px;
 font-weight: 400;
 line-height: 25px;
- font-family: 'Lucida Sans Unicode', arial;
+ /*font-family: 'Lucida Sans Unicode', arial;*/
+  font-family: arial;
+
  letter-spacing: 0.3px;
  margin-right: 17px;
 }
@@ -58,7 +60,7 @@ background-image: linear-gradient(180deg, #206988 0%, #114165 59%, #0c3256 100%)
 border-radius: 4px;
 box-shadow: 1.5px 2.6px 3px rgba(150, 150, 150, 0.75);
 }
-.autorez input {
+.autorez .int_aut {
 margin-top: 4px;
 margin-left: 2px;
 margin-right: 4px;
@@ -73,6 +75,20 @@ font-size: 11px;
 font-weight: 400;
 line-height: 25px;
 
+}
+.autorez .enter {
+	float: left;
+	margin-top: 6px;
+	list-style: none;
+	text-decoration: none;
+	color: white;
+	font-family: "Lucida Sans Unicode", Arial;
+	font-size: 11px;
+	font-weight: 400;
+	line-height: 13px;
+	margin-left: 3px;
+	background: none;
+	border:0;
 }
 .autorez  a {
 	float: left;
@@ -140,7 +156,8 @@ box-shadow: 1.5px 2.6px 5px rgba(0, 0, 0, 0.75);
 	padding-left: 14px;
 	padding-right: 14px;
 	color: #fff;
-	font-family: "Lucida Sans Unicode", Arial;
+	/*font-family: "Lucida Sans Unicode", Arial;*/
+	 font-family:  arial;
 	font-size: 14px;
 	font-weight: 400;
 line-height: 35px;
@@ -213,7 +230,7 @@ border: 1px solid #79878d;
 box-shadow: 1.5px 2.6px 3px rgba(150, 150, 150, 0.75);
 margin-bottom: 14px;
 }
-.left_katalog_header span {
+.left_katalog_header h3 {
 	color: #114165;
 	font-size: 11px;
 	font-weight: 400;
@@ -222,7 +239,7 @@ margin-bottom: 14px;
 	float: left;
 	letter-spacing: 0.9px;
 }
-.right_katalog_header span{
+.right_katalog_header h3{
 	color: #114165;
 	font-size: 11px;
 	font-weight: 400;
@@ -250,14 +267,14 @@ border-radius: 14px;
 	margin-right: 10px;
 }
 
-.left_catalog_header_litl span {
+.left_catalog_header_litl h3 {
 	color: #114165;
 font-family: "Lucida Sans Unicode", Arial;
 font-size: 14px;
 font-weight: 400;
 line-height: 25px;
 }
-.right_catalog_header_litl span {
+.right_catalog_header_litl h3 {
 	color: #114165;
 font-family: "Lucida Sans Unicode", Arial;
 font-size: 14px;
@@ -651,7 +668,15 @@ font-size: 16px;
 	margin: 0 auto;
 	text-align: center;
 }
-.brand_logo img{
+/*.brand_logo img{
+	padding-top: 4px;
+	margin-right: 12px;
+	text-align: center;
+	display:inline-block;
+	vertical-align: bottom;
+}*/
+
+.brand_logo a{
 	padding-top: 4px;
 	margin-right: 12px;
 	text-align: center;
