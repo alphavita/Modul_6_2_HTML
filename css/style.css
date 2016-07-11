@@ -15,6 +15,7 @@
 	padding-right: 45px;
 	padding-top: 16px;
 	font-family: ;
+	background: url('../img/homework6.jpg');
 }
 .clearfix {
 	clear: both;
@@ -24,10 +25,11 @@ header {
 	margin-bottom: 11px;
 }
 .tel {
+	padding-top: 2px;
 	float: left;
 	margin-right: 5px;
-	margin-left: 7px;
-	margin-top: 3px;
+	margin-left: 8px;
+	margin-top: 4px;
 	height: 21px;
 	width: 21px;
 	border-radius: 50%;
@@ -46,7 +48,12 @@ line-height: 25px;
   font-family: arial;
 
  letter-spacing: 0.3px;
- margin-right: 17px;
+ margin-right: 15px;
+ margin-left: 1px;
+ margin-top: 3px;
+}
+.number span {
+	font-size: 5px;
 }
 .autorez {
 /* Style for "Shape 22" */
@@ -63,11 +70,13 @@ box-shadow: 1.5px 2.6px 3px rgba(150, 150, 150, 0.75);
 .autorez .int_aut {
 margin-top: 4px;
 margin-left: 2px;
-margin-right: 4px;
+margin-right: 5px;
 float: left;
-width: 115px;
-height: 18px;
+width: 113px;
+height: 17px;
 border: 1px solid #9ba1a3;
+padding-left:  2px;
+padding-bottom: 3px;
 
 color: #97a2a6;
 font-family: "Lucida Sans Unicode", Arial;
@@ -75,6 +84,9 @@ font-size: 11px;
 font-weight: 400;
 line-height: 25px;
 
+}
+.autorez .int_aut:nth-child(2) {
+	width: 115px;
 }
 .autorez .enter {
 	float: left;
@@ -86,9 +98,11 @@ line-height: 25px;
 	font-size: 11px;
 	font-weight: 400;
 	line-height: 13px;
-	margin-left: 3px;
+	/*margin-left: px;*/
 	background: none;
 	border:0;
+	padding-right: 1px;
+	padding-left: 4px;
 }
 .autorez  a {
 	float: left;
@@ -101,12 +115,15 @@ line-height: 25px;
 	font-weight: 400;
 	line-height: 13px;
 	margin-left: 3px;
+	/*border-left: 1px solid #fff;
+	padding-left: 4px;*/
 }
-.autorez a:nth-of-type(2) {
+.autorez a:nth-of-type(1) {
 	border-left: 1px solid #fff;
 	padding-left: 4px;
+
 }
-.autorez a:nth-of-type(3) {
+.autorez a:nth-of-type(2) {
 
 	float: right;
 	color: #bfbfbf;
@@ -117,6 +134,7 @@ line-height: 25px;
 
 }
 nav {
+	margin-top: 2px;
 	float: left;
 	width: 75px;
 	height: 21px;
@@ -128,7 +146,7 @@ nav {
 }
 .navigation {
 	/* Style for "Shape 21" */
-margin-top: 4px;
+margin-top: 3px;
 margin-bottom: 10px;
 /*margin-bottom: 160px;*/
 width: 910px;
@@ -162,11 +180,21 @@ box-shadow: 1.5px 2.6px 5px rgba(0, 0, 0, 0.75);
 	font-weight: 400;
 line-height: 35px;
 }
-.navigation a :first-of-type {
-	padding-left: 20px;
-	padding-right: 19px;
+.navigation li:nth-child(1) {
+	padding-bottom: 5px;
+	padding-left: 7px;
 }
+.navigation li:nth-of-type(2) {
+	padding-left: 7px;
+}
+.navigation li:nth-of-type(3) {
+	padding-left: 4px;
+	padding-bottom: 2px;
+}
+.navigation li:nth-of-type(4) {
+	padding-left: 3px;
 
+}
 .navigation li a:hover {
 	/* Style for "Shape 5" */
 
@@ -177,10 +205,11 @@ background-color: #f60303;
 background-image: linear-gradient(180deg, #206988 0%, #114165 59%, #0c3256 100%);
 }
 .basket {
-	margin-left: 73px;
+	/*margin-left: 53px;*/
 
 	padding-top: 7px;
-	float: left;
+	padding-right: 10px;
+	float: right;
 	font-family: "Lucida Sans Unicode", Arial;
 	color: #929b9f;
 	font-size: 11px;
@@ -193,12 +222,17 @@ color: #0d5a8f;
 font-size: 12px;
 font-weight: 400;
 }
+.basket span {
+	display: inline-block;
+	padding-top: 3px;
+	vertical-align: middle;
+}
 .basket span:nth-of-type(3) {
-	padding-left: 5px;
-	padding-right: 5px;
+	padding-left: 8px;
+	padding-right: 7px;
 }
 .container {
-	margin-bottom: 29px;
+	margin-bottom: 31px;
 }
 .left_katalog {
 	margin-top: 3px;
@@ -249,7 +283,7 @@ margin-bottom: 14px;
 }
 .left_catalog_header_litl {
 	/* Style for "Shape 28" */
-width: 148px;
+width: 149px;
 height: 28px;
 /*margin-left: 14px;
 */background-color: white;
@@ -284,16 +318,37 @@ line-height: 25px;
 
 .left_katalog  .filter {
 
-	margin-left: 30px;
+	margin-left: 26px;
 	color: #114165;
 font-family: "Lucida Sans Unicode", Arial;
 font-size: 12px;
+}
+.filter input+span {
+	font-size: 13px;
+	display: inline-block;
 }
 .right_catalog .filter {
 margin-left: 16px;
 	color: #114165;
 font-family: "Lucida Sans Unicode", Arial;
 font-size: 12px;
+}
+.right_catalog .filter ul {
+	padding-top: 30px;
+	padding-left: 5px;
+}
+.right_catalog .filter input+span {
+	padding-left: 5px;
+
+}
+.right_catalog .filter label {
+	line-height: 9px;
+}
+.filter .right_second  li {
+	display: inline-block;
+	padding-top: 5px;
+	line-height: 15px;
+
 }
 .filter input:checked+span {
 	color: #0c3256;
@@ -302,21 +357,29 @@ font-size: 14px;
 font-weight: 700;
 font-style: italic;
 text-decoration: underline;
+
+}
+.filter input[type='radio'] {
+	margin-right: 0;
 }
 .filter li {
 	margin-bottom: 8px;
 }
 
 .filter li:last-of-type {
-	margin-bottom: 4px;
+	margin-bottom: 3px;
 }
+.left_catalog .filter .second li {
+	margin-bottom: 5px;
+}
+
 .right_catalog .filter li:last-of-type {
 	margin-bottom: 10px;
 }
 button {
 	/* Style for "Shape 36" */
-	margin-top: 13px;
-	margin-left: 22px;
+	margin-top: 10px;
+	margin-left: 24px;
 width: 82px;
 height: 26px;
 background-color: black;
@@ -453,8 +516,12 @@ font-weight: 300;
 	font-weight: 300;
 	margin-top: 21px;
 }
-.second {
-	margin-left: 18px;
+.second span {
+	margin-bottom: 0px;
+	line-height: 9px;
+}
+.three span {
+	line-height: 8px;
 }
 .find_auto legend {
 	float: left;
@@ -609,8 +676,8 @@ label {
 	font-family: "Lucida Sans Unicode", Arial;
 	float: left;
 	width: 526px;
-	padding-left: 22px;
-	padding-top: 13px;
+	padding-left: 23px;
+	padding-top: 15px;
 
 	height: 627px;
 	background-color: white;
@@ -623,6 +690,10 @@ border-radius: 3px;
 	margin-right: 28px;
 	text-align: center;
 	margin-bottom: 23px;
+}
+.item figcaption {
+	font-size: 13px;
+	font-weight: bold;
 }
 .item:nth-of-type(3) {
 	margin-right: 0;
@@ -650,10 +721,10 @@ margin-bottom: 2px;
 	display: block;
 }
 .item_prise {
-
+	display: inline-block;
 	color: #114165;
 	/* Base text style */
-
+	font-family: Arial;
 
 
 font-weight: 700;
@@ -661,6 +732,8 @@ font-style: italic;
 
 /* Text style for "90.00" */
 font-size: 16px;
+padding-top: 3px;
+padding-left: 9px;
 
 
 }
@@ -678,7 +751,8 @@ font-size: 16px;
 
 .brand_logo a{
 	padding-top: 4px;
-	margin-right: 12px;
+	margin-left: 5px;
+	margin-right: 5px;
 	text-align: center;
 	display:inline-block;
 	vertical-align: bottom;
@@ -691,7 +765,7 @@ height: 101px;
 background-color: #213a4d;
 border: 1px solid #242a3c;
 text-align: center;
-margin-top: 29px;
+margin-top: 35px;
 padding-top: 10px;
 }
 footer a {

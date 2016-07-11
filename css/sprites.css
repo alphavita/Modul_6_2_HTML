@@ -50,7 +50,8 @@
 	float: left;
 	margin-right: 2px;
 	margin-right: 4px;
-	margin-left: 2px;
+	margin-left: 4px;
+	margin-top: 1px;
 }
 
 .icon_list{
@@ -103,7 +104,7 @@ background-image: linear-gradient(#206988 0%, #114165 59%, #0c3256 100%);*/
 }
 
 .icon_toyo{
-	background-position: -4px -6px ;
+	background-position: -4px -4px ;
 	width: 83px;
 	height: 21px;
 }
@@ -130,7 +131,7 @@ background-image: linear-gradient(#206988 0%, #114165 59%, #0c3256 100%);*/
 }
 
 .icon_contire3{
-	background-position: -209px -7px ;
+	background-position: -209px -1px ;
 	width: 77px;
 	height: 21px;
 }
@@ -143,7 +144,7 @@ background-image: linear-gradient(#206988 0%, #114165 59%, #0c3256 100%);*/
 }
 
 .tire_4dr{
-	background-position: -305px -6px ;
+	background-position: -305px 0px ;
 	width: 59px;
 	height: 21px;
 }
@@ -169,7 +170,7 @@ background-image: linear-gradient(#206988 0%, #114165 59%, #0c3256 100%);*/
 }
 
 .icon_tirefact{
-	background-position: -465px -4px ;
+	background-position: -465px 1px ;
 	width: 57px;
 	height: 27px;
 }
