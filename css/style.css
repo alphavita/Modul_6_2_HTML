@@ -290,6 +290,10 @@ height: 28px;
 border: 1px solid #79878d;
 border-radius: 14px;
 }
+.left_catalog_header_litl .bolt {
+	margin-left: 2px;
+	width: 151px;
+}
 .right_catalog_header_litl {
 	width: 137px;
 	height: 28px;
@@ -344,12 +348,7 @@ font-size: 12px;
 .right_catalog .filter label {
 	line-height: 9px;
 }
-.filter .right_second  li {
-	display: inline-block;
-	padding-top: 5px;
-	line-height: 15px;
 
-}
 .filter input:checked+span {
 	color: #0c3256;
 font-family: Arial;
@@ -367,18 +366,28 @@ text-decoration: underline;
 }
 
 .filter li:last-of-type {
-	margin-bottom: 3px;
+	margin-bottom: 2px;
 }
 .left_catalog .filter .second li {
 	margin-bottom: 5px;
 }
 
+.filter .right_second  li {
+	display: inline-block;
+	padding-top: 5px;
+	line-height: 11px;
+	margin-bottom: 4px;
+
+}
+
 .right_catalog .filter li:last-of-type {
-	margin-bottom: 10px;
+	margin-bottom: 8px;
+	/*margin-top: 4px;*/
+	padding-top: 0;
 }
 button {
 	/* Style for "Shape 36" */
-	margin-top: 10px;
+	margin-top: 12px;
 	margin-left: 24px;
 width: 82px;
 height: 26px;
@@ -740,6 +749,8 @@ padding-left: 9px;
 .brand_logo {
 	margin: 0 auto;
 	text-align: center;
+	padding-left: 113px;
+	padding-top: 10px;
 }
 /*.brand_logo img{
 	padding-top: 4px;
@@ -748,7 +759,16 @@ padding-left: 9px;
 	display:inline-block;
 	vertical-align: bottom;
 }*/
-
+.brand_logo1,
+.brand_logo2,
+.brand_logo3,
+.brand_logo4,
+.brand_logo5,
+.brand_logo6,
+.brand_logo7,
+.brand_logo8 {
+	float: left;
+}
 .brand_logo a{
 	padding-top: 4px;
 	margin-left: 5px;
@@ -765,7 +785,7 @@ height: 101px;
 background-color: #213a4d;
 border: 1px solid #242a3c;
 text-align: center;
-margin-top: 35px;
+margin-top: 23px;
 padding-top: 10px;
 }
 footer a {
